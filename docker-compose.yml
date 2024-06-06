@@ -26,3 +26,4 @@ services:
       - ./mongo-server/init-db.js:/docker-entrypoint-initdb.d/init-db.js:ro    
     ports:
       - 27017:27017
+
